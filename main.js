@@ -3,13 +3,13 @@ var arr2 = [7,8,9,10,11,12];
 
 var newArr = combineAndCut(arr,arr2);
 
-var anotherArr = getEvens(newArr);
+// var anotherArr = getEvens(newArr);
 
-var thirdArr = double(anotherArr);
+var thirdArr = double(newArr);
 
-var maximum = max(thirdArr);
+// var maximum = max(thirdArr);
 
-var minimum = min(thirdArr);
+// var minimum = min(thirdArr);
 
 var max = function(){
     return Math.max.apply(Math, array);     }
@@ -19,6 +19,7 @@ var min = function(){
 
 console.log(maximum);
 console.log(minimum);
+
 
 
 

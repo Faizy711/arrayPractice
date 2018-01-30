@@ -11,6 +11,12 @@ var maximum = max(thirdArr);
 
 var minimum = min(thirdArr);
 
+var max = function(){
+    return Math.max.apply(Math, array);     }
+
+var min = function(){
+    return Math.min.apply(Math, array);     }
+
 console.log(maximum);
 console.log(minimum);
 

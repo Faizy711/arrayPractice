@@ -3,16 +3,16 @@ var arr2 = [7,8,9,10,11,12];
 
 var newArr = combineAndCut(arr,arr2);
 
-var anotherArr = getEvens(newArr);
+// var anotherArr = getEvens(newArr);
 
-var thirdArr = double(anotherArr);
+var thirdArr = double(newArr);
 
-var maximum = max(thirdArr);
+// var maximum = max(thirdArr);
 
-var minimum = min(thirdArr);
+// var minimum = min(thirdArr);
 
-console.log(maximum);
-console.log(minimum);
+// console.log(maximum);
+// console.log(minimum);
 
 
 
